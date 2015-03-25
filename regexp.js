@@ -30,7 +30,7 @@ verify(/[A-Za-z]{7}[A-Za-z]*/,
        ["hottentottententen"],
        ["no", "hotten totten tenten"]);
 
-verify(/.../,
+verify(/[^e]+/,
        ["red platypus", "wobbling nest"],
        ["earth bed", "learning ape"]);
 
